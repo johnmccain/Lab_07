@@ -2,6 +2,8 @@ LinkedList bug guesses
 
 Bug 1: m_size is defined as 1 rather than 0 on creation of a new LinkedList
 
-Bug 2: addBack doesn't add the desired element, rather copies the first element and places it again at the back
+Bug 2: isEmpty always returns false
 
-Bug 3: removeFront doesn't remove the front element, it removes the back element
+Bug 3: addBack doesn't add the desired element, rather copies the first element and places it again at the back
+
+Bug 4: removeFront doesn't remove the front element, it removes the back element

@@ -207,7 +207,7 @@ int main(int argc, char** argv)
 		std::cout << "\nTest " << ++testNo << ": size on LinkedList with two elements. Passed: ";
 		std::cout << (myLinkedList.size() == 2) << "\n\tSize: " << (myLinkedList.size()) << std::endl;
 
-		std::cout << "\nTest " << ++testNo << ": good search for -3 on LinkedList with two elements.  Passed: ";
+		std::cout << "\nTest " << ++testNo << ": good search for 8 on LinkedList with two elements.  Passed: ";
 		std::cout << (myLinkedList.search(8)) << std::endl;
 
 		std::cout << "\nTest " << ++testNo << ": bad search for 12 on LinkedList with two elements.  Passed: ";
